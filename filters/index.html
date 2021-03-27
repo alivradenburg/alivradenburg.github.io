@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: drop-shadow:(17px 17px 9px) hue-rotate(50deg); 
+      filter: drop-shadow(17px 17px 9px) hue-rotate(50deg);
+
+      
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 10s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: drop-shadow:(17px 17px 9px) hue-rotate(50deg); 
+	        filter: drop-shadow(17px 17px 9px) hue-rotate(50deg);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/collage.jpg" alt="collage">
+
+</body>
+</html>
